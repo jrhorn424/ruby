@@ -1,0 +1,6 @@
+export POW_DOMAINS=dev
+export POW_TIMEOUT=300
+export POW_WORKERS=16
+
+source /usr/local/share/chruby/chruby.sh
+RUBIES=(~/.rubies/*)
