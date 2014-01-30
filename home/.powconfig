@@ -4,3 +4,4 @@ export POW_WORKERS=16
 
 source /usr/local/share/chruby/chruby.sh
 RUBIES=(~/.rubies/*)
+export POW_DST_PORT=88

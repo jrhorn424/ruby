@@ -18,3 +18,4 @@ begin
 rescue LoadError => e
   warn "Can't load pry-nav. Is it installed for your current ruby?"
 end
+
