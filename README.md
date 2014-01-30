@@ -1,4 +1,4 @@
 ruby
 ====
 
-Homeshick-compatible dotfiles for ruby and rails
+Homesick-compatible dotfiles for ruby and rails
