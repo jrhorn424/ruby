@@ -1,0 +1,33 @@
+# $HOME/Gemfile - jeff@jrhorn.me
+#
+# A gemfile for all those system utilities you want outside your projects
+#
+
+source "https://rubygems.org"
+
+#
+# Remote pairing
+#
+gem 'github-auth'
+gem 'git-pairing'
+###
+
+#
+# Development
+#
+gem 'gem-ctags'
+gem 'pry'
+gem 'gem-browse'
+gem 'yard'
+gem 'hookup'
+
+gem 'pry'
+gem 'pry-clipboard'
+gem 'pry-nav'
+###
+
+#
+# Vim
+#
+gem 'infect'
+###

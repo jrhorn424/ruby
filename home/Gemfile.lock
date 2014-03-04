@@ -1,0 +1,54 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.2.0)
+    clipboard (1.0.1)
+    coderay (1.1.0)
+    gem-browse (1.0.0)
+    gem-ctags (1.0.6)
+    git-pairing (0.5.0)
+      awesome_print (>= 1.1.0)
+      highline (>= 1.6.15)
+      paint (>= 0.8.5)
+      trollop (>= 2.0)
+    github-auth (3.0.2)
+      httparty (~> 0.12.0)
+      thor (~> 0.18.1)
+    highline (1.6.20)
+    hookup (1.2.3)
+    httparty (0.12.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    infect (0.0.5)
+    json (1.8.1)
+    method_source (0.8.2)
+    multi_xml (0.5.5)
+    paint (0.8.7)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-clipboard (0.1.1)
+      clipboard
+      pry
+    pry-nav (0.2.3)
+      pry (~> 0.9.10)
+    slop (3.4.7)
+    thor (0.18.1)
+    trollop (2.0)
+    yard (0.8.7.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gem-browse
+  gem-ctags
+  git-pairing
+  github-auth
+  hookup
+  infect
+  pry
+  pry-clipboard
+  pry-nav
+  yard
