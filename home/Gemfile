@@ -13,7 +13,7 @@ gem 'git-pairing'
 ###
 
 #
-# Development
+# Ruby
 #
 gem 'gem-ctags'
 gem 'gem-browse'
@@ -25,6 +25,12 @@ gem 'pry-clipboard'
 gem 'pry-nav'
 
 gem 'discover-unused-partials'
+###
+
+#
+# Git
+#
+gem 'gx'
 ###
 
 #
