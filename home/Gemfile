@@ -16,6 +16,8 @@ gem 'git-pairing'
 # Ruby
 #
 gem 'gem-ctags'
+gem 'gem-release'
+gem 'pry'
 gem 'gem-browse'
 gem 'yard'
 gem 'hookup'
