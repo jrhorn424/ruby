@@ -16,3 +16,6 @@ alias rdr='bundle exec rake db:rollback'
 alias migrate='bundle exec rake db:migrate db:test:clone'
 # alias r='rails'
 alias rcs='bundle exec rails console --sandbox'
+
+# needed lest zsh swallow rake task args
+alias rake='noglob rake'
