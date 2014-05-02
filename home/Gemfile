@@ -5,38 +5,19 @@
 
 source "https://rubygems.org"
 
-#
-# Remote pairing
-#
 gem 'github-auth'
 gem 'git-pairing'
-###
-
-#
-# Ruby
-#
 gem 'bundler'
 gem 'gem-ctags'
 gem 'gem-release'
 gem 'gem-browse'
 gem 'yard'
 gem 'hookup'
-
 gem 'pry'
 gem 'pry-clipboard'
 gem 'pry-nav'
-
 gem 'discover-unused-partials'
-###
-
-#
-# Git
-#
+gem 'hub'
 gem 'gx'
-###
-
-#
-# Vim
-#
 gem 'infect'
-###
+gem 'lunchy'
