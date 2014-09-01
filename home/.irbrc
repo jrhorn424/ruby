@@ -53,7 +53,7 @@ extend_console 'interactive_editor'
 # awesome print
 extend_console 'awesome_print' do
   alias pp ap
-  # AwesomePrint.irb!
+  AwesomePrint.irb!
 end
 
 extend_console 'irbtools' do
