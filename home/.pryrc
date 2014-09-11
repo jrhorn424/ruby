@@ -15,15 +15,6 @@ def pbpaste
   `pbpaste`
 end
 
-# wrap ANSI codes so Readline knows where the prompt ends
-def color(name, text)
-  if Pry.color
-    "\001#{Pry::Helpers::Text.send name, '{text}'}\002".sub '{text}', "\002#{text}\001"
-  else
-    text
-  end
-end
-
 # === CUSTOM PROMPT ===
 Pry.prompt = [
   proc { |obj, nest_level, _|
@@ -33,15 +24,6 @@ Pry.prompt = [
   }
 ]
 Pry.config.prompt = Pry::NAV_PROMPT
-
-# pretty prompt
-# Pry.config.prompt = [
-#   proc do |object, nest_level, pry|
-#     prompt  = colour :bright_red, Pry.view_clip(object)
-#     prompt += ":#{nest_level}" if nest_level > 0
-#     prompt += colour :cyan, ' » '
-#   end, proc { |object, nest_level, pry| colour :cyan, '» ' }
-# ]
 
 # === Pry Debugger ===
 begin
