@@ -57,8 +57,9 @@ extend_console 'awesome_print' do
 end
 
 extend_console 'irbtools' do
-  FancyIrb.options[:colorize][:rocket_prompt] = :yellow
-  FancyIrb.options[:colorize][:stdout] = :white
+  FancyIrb.start({
+    colorize: { rocket_prompt: :yellow, stdout: :white }
+  })
 end
 
 extend_console 'irbtools/more'
